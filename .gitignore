@@ -1,0 +1,62 @@
+# -----------------------------
+# Sistema operativo
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# Editores / IDE
+# -----------------------------
+.idea/
+*.iml
+*.code-workspace
+
+# VS Code: ignorar estado local, permitir compartir config útil
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# -----------------------------
+# Archivos temporales y logs
+# -----------------------------
+*.log
+*.tmp
+*.temp
+
+# -----------------------------
+# Variables de entorno / secretos
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# PlatformIO (ESP32)
+# -----------------------------
+.pio/
+.piolibdeps/
+
+# -----------------------------
+# ESP-IDF / CMake
+# -----------------------------
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# -----------------------------
+# Android / Gradle (app compañera)
+# -----------------------------
+.gradle/
+local.properties
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+out/
