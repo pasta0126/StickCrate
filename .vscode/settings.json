@@ -1,0 +1,6 @@
+{
+  "platformio-ide.defaultEnv": "m5stickc_plus2",
+  "files.associations": {
+    "*.ino": "cpp"
+  }
+}

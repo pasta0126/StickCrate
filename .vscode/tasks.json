@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "PIO: Build",
+      "type": "shell",
+      "command": "pio",
+      "args": ["run", "-e", "m5stickc_plus2"],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "PIO: Upload",
+      "type": "shell",
+      "command": "pio",
+      "args": ["run", "-e", "m5stickc_plus2", "-t", "upload"],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "PIO: Monitor",
+      "type": "shell",
+      "command": "pio",
+      "args": ["device", "monitor", "-b", "115200"],
+      "problemMatcher": []
+    }
+  ]
+}
