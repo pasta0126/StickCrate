@@ -60,3 +60,17 @@ captures/
 .externalNativeBuild/
 .cxx/
 out/
+
+# -----------------------------
+# Flutter / Dart
+# -----------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+coverage/
+migrate_working_dir/
